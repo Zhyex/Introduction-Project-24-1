@@ -48,32 +48,7 @@ nav a:hover{
     /* border-radius: 10%; */
     padding: 10px;
 }
-.container{
-    max-width: 55rem;
-    width: 90%;
-    margin:2rem auto;
-}
-.container .imgPrincipal{
-    background:url('/images/d487276d924e81a2c44ec97db6e8bc8f2ab9bf2c.webp');
-    background-size: 100%;
-    width: 100%;
-    padding-top: 56%;
-    position: relative;
-    /* border-radius: 3%; */
-}
-h2{
-    text-align: center;
-}
-.containerOtros{
-    margin: 15px;
-    padding: 15px;
-    display: flex;
-}
-.containerOtros img{
-    width: 33%;
-    /* border-radius: 5%; */
-    padding: 5px;
-}
+
 footer{
     background-color: rgb(39,185,231);
     color: white;
