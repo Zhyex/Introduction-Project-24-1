@@ -50,47 +50,6 @@ transform: scaleX(1.2);
     /* border-radius: 10%; */
     /* padding: 10px; */
 }
-h1{
-    text-align: center;
-}
-.cardContainer{/* Contenedor de las cards(hijos) */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    gap: 10px;
-}
-.cardContainer .card{
-    background-color:rgba(128, 128, 128,0.2);
-    padding: 10px;
-    width: 100%;
-    max-width: 400px;
-    overflow: auto;
-}
-.cardContainer .content img{
-    display: block;
-    margin: auto;
-    width: 100%;
-}
-.cardContainer .content h3{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-.cardContainer .content p{
-    text-align: center;
-}
-h2{
-    margin-top: 10px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-@media screen and (max-width:900px){
-    .cardContainer .card{
-        flex-direction: column;
-    }
-}
-
 
 footer{
     background-color: rgb(39,185,231);
