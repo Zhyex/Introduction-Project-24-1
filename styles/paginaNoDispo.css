@@ -1,1 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* @font-face {
+    font-family: 'gamergyRev';
+    src: url('/fonts/Louis\ George\ Cafe\ Light.ttf');
+} */
+@font-face {
+    font-family: 'gamergyRevBold';
+    src: url('/fonts/Louis\ George\ Cafe\ Bold.ttf');
+}
+html{
+    font-family: 'gamergyRevBold';
+}
+header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(39,185,231);
+    color: white;
+}
+.logo{
+    padding: 15px;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
 
+nav{
+    background-color: rgb(217,217,217);
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    margin: 0 60px auto;
+    padding: 10px;
+    transition: all 0.5s;
+    color:black;
+} 
+nav a:hover{
+    /* background-color: rgba(0, 0, 0,0.2); */
+    color: whitesmoke;
+    margin: 0 60px auto;
+    justify-content: space-evenly;
+    transform: scaleX(1.2);
+    /*      */
+    /* border-radius: 10%; */
+    /* padding: 10px; */
+}
+.container{
+    max-width: 55rem;
+    width: 90%;
+    margin:2rem auto;
+}
+.container .imgPrincipal{
+    background:url('/images/construccion.jpeg');
+    background-size: 100%;
+    width: 100%;
+    padding-top: 80%;
+    position: relative;
+    /* border-radius: 3%; */
+}
+footer{
+    background-color: rgb(39,185,231);
+    color: white;
+    text-align: center;
+}
