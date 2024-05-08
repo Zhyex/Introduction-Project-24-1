@@ -39,6 +39,7 @@ nav a{
     margin: 0 60px auto;
     padding: 10px;
     transition: all 0.5s;
+    color:black;
 } 
 nav a:hover{
     /* background-color: rgba(0, 0, 0,0.2); */
@@ -50,7 +51,76 @@ transform: scaleX(1.2);
     /* border-radius: 10%; */
     /* padding: 10px; */
 }
-
+.container{
+    max-width: 55rem;
+    width: 90%;
+    margin:2rem auto;
+}
+.container .imgPrincipal{
+    background:url('/images/analisis1.jpeg');
+    background-size: 100%;
+    width: 100%;
+    padding-top: 56%;
+    position: relative;
+    /* border-radius: 3%; */
+}
+.container2{
+    max-width: 55rem;
+    width: 90%;
+    margin:2rem auto;
+}
+.container2 .imgPrincipal2{
+    background:url('/images/analisis2.jpeg');
+    background-size: 100%;
+    width: 100%;
+    padding-top: 56%;
+    position: relative;
+    /* border-radius: 3%; */
+}
+.redirect{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(0, 0, 0,0.8);
+    position: absolute;
+    bottom: 0px;
+}
+.redirect h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 10px;
+}
+.redirect p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+.section{
+    /* background-color: brown; */
+    flex: 50%;
+    margin-bottom: 10px;
+}
+.video{
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: calc(100vh*50/90);
+}
+@media screen and (max-width:900px) {
+    .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width:auto;
+    }
+    .container2{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width:auto;
+    }
+}
 footer{
     background-color: rgb(39,185,231);
     color: white;
