@@ -61,6 +61,7 @@ h1{
     flex-wrap: wrap;
     justify-content:center;
     margin-top: 12px;
+    gap:10px;
     /* hyphens: manual; se usa para designar  */
 }
 .padre1{
@@ -68,6 +69,7 @@ h1{
     flex-wrap: wrap;
     justify-content:center;
     margin-top: 25px;
+    gap:10px;
 }
 .padre .hijo1, .padre1 .hijo1{
     padding: 10px;
@@ -81,10 +83,15 @@ h1{
     margin: auto;
     width: 100%;
 }
+.hijo1 .hijo11 a{
+    text-decoration: none;
+}
 .hijo11 h3{
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 .hijo11 p{
     text-align: center;
@@ -94,7 +101,7 @@ h1{
 
     .padre2{
         max-width: 55rem;
-        width: 90%;
+        width: 100%;
         margin:2rem auto;
         
     }
@@ -110,9 +117,9 @@ h1{
         background:url('/images/paladincierra.jpg'); /* revise las paginas
         y esta forma de los analisis la quise poner en practica */
         background-size: 100%;
-        margin: 10px;
-        width: 100%;
-        padding-top: 58%;
+        margin: 10px auto;
+        width: 92%;
+        padding-top: 52%;
         position: relative;
     }
     .paladin{
