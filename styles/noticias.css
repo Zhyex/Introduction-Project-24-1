@@ -39,6 +39,7 @@ nav a{
     margin: 0 60px auto;
     padding: 10px;
     transition: all 0.5s;
+    color:black;
 } 
 nav a:hover{
     /* background-color: rgba(0, 0, 0,0.2); */
