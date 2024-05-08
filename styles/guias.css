@@ -114,16 +114,25 @@ h2{
     width: 100%;
 }
 .newContainer .newImg img{
-    width: 600px;
+    width: 450px;
 }
 .newContainer .new{
     display: flex;
     justify-content: center;
     align-content: center;
 }
+.new p{
+    display: block;
+}
 @media screen and (max-width:900px){
     .cardContainer .card{
         flex-direction: column;
+    }
+    .newContainer{
+        flex-wrap:wrap;
+    }
+    .newContainer .newImg img{
+        width: 100%;
     }
 }
 
