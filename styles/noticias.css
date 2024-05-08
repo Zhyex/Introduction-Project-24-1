@@ -52,6 +52,96 @@ transform: scaleX(1.2);
     /* padding: 10px; */
 }
 
+h1{
+    margin-top: 35px;
+    text-align: center;
+}
+.padre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 12px;
+    /* hyphens: manual; se usa para designar  */
+}
+.padre1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 25px;
+}
+.padre .hijo1, .padre1 .hijo1{
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    overflow: auto;
+    background-color: rgb(217,217,217);
+}
+.hijo11 img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.hijo11 h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.hijo11 p{
+    text-align: center;
+}
+
+/* primer intento de contenedor padre, continuación de la pag de noticia*/
+
+    .padre2{
+        max-width: 55rem;
+        width: 90%;
+        margin:2rem auto;
+        
+    }
+    /* padre2 img{
+        position: relative;
+        background-color: rgb(217,217,217);
+        width: 80%;
+        investigar la manera de tener con esta combinanción un back color con el diseño parecido al de analisis
+        la manera que puse el color de margen de la imagen de paladin fue editando la misma imagen, preguntar 
+        a camilo alguna forma
+    } */
+    .padre2 .hijo1a{
+        background:url('/images/paladincierra.jpg'); /* revise las paginas
+        y esta forma de los analisis la quise poner en practica */
+        background-size: 100%;
+        margin: 10px;
+        width: 100%;
+        padding-top: 58%;
+        position: relative;
+    }
+    .paladin{
+        width: 100%;
+        height: 30%;
+        background-color: rgba(0, 0, 0,0.8);
+        position: absolute;
+        bottom: 0px;
+    }
+    .paladin h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding-top: 6px;
+        font-weight: bold;
+    }
+    .paladin h3{
+        justify-content: center;
+        display: flex;
+        color: white;
+    }
+    .paladin p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 10px;
+    }
 footer{
     background-color: rgb(39,185,231);
     color: white;
