@@ -39,13 +39,14 @@ nav a{
     margin: 0 60px auto;
     padding: 10px;
     transition: all 0.5s;
+    color:black;
 } 
 nav a:hover{
     /* background-color: rgba(0, 0, 0,0.2); */
     color: whitesmoke;
     margin: 0 60px auto;
     justify-content: space-evenly;
-transform: scaleX(1.2);
+    transform: scaleX(1.2);
     /*      */
     /* border-radius: 10%; */
     /* padding: 10px; */
